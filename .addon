@@ -1,8 +1,8 @@
 {
-  "Title": "SandClicker",
+  "Title": "Sand Clicker",
   "Type": "game",
-  "Org": "local",
-  "Ident": "sandclicker",
+  "Org": "oop",
+  "Ident": "sc",
   "Schema": 1,
   "HasAssets": true,
   "AssetsPath": "",

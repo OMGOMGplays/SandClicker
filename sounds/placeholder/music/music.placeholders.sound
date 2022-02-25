@@ -1,0 +1,31 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	data = 
+	{
+		ui = true
+		volume = 0.75
+		volumerandom = 0.0
+		pitch = 1.0
+		pitchrandom = 0.0
+		distancemax = 2000.0
+		sounds = 
+		[
+			"sounds/placeholder/music/minecraft volume alpha - 1 - key.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 3 - subwoofer lullaby.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 5 - living mice.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 6 - moog city.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 7 - haggstrom.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 8 - minecraft.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 9 - oxygene.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 10 - equinoxe.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 11 - mice on venus.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 12 - dry hands.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 13 - wet hands.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 14 - clark.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 15 - chris.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 18 - sweden.mp3",
+			"sounds/placeholder/music/minecraft volume alpha - 21 - danny.mp3",
+		]
+		selectionmode = "3"
+	}
+}

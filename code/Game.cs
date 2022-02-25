@@ -21,6 +21,8 @@ namespace SC
 		{
 			Instance = this;
 
+			PlaySound("music.placeholders");
+
 			if (IsClient) 
 			{
 				_ = new SandClickerUI();
@@ -37,7 +39,7 @@ namespace SC
 			// var pawn = new SCPlayer();
 			// client.Pawn = pawn;
 
-			// player.Spawn();
+			player.Spawn();
 		}
 	}
 
