@@ -1,0 +1,144 @@
+TestMenu {
+    width: 100%;
+    pointer-events: all;
+    position: absolute;
+    height: 100%;
+    opacity: 1;
+    margin: auto;
+    background-color: rgb(84, 104, 110);
+    flex-direction: row;
+    overflow: hidden;
+
+    .header {
+        padding: 14px 20px;
+        width: 75%;
+        background-color: rgb(80, 117, 117);
+        color: white;
+        font-family: Arial;
+        font-weight: 800;
+        font-size: 45px;
+        text-align: center;
+        text-shadow: 2px 2px 1px black;
+        box-shadow: 0px 0 10px 5px rgb(37, 54, 59);
+        position: relative;
+    }
+
+    TestMenuButtons {
+        height: 100%;
+        width: 100%;
+        left: 825px;
+        background-color: rgb(42, 104, 104);
+        box-shadow: -4px 0px 10px 0px rgb(39, 57, 63);
+        padding: 10px;
+        flex-direction: column;
+
+        .button {
+            width: 30%;
+            padding: 10px;
+            font-family: Arial;
+            font-size: 22px;
+            font-weight: 600;
+            border: 2.5px;
+            border-color: rgb(35, 42, 46);
+            color: white;
+            text-transform: capitalize;
+            box-shadow: -2.5px 2.5px 10px 0px rgb(39, 57, 63);
+            text-shadow: -1px 1px 1px rgb(0, 0, 0);
+            background-color: rgb(35, 42, 46);
+            border-radius: 3px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .button:hover {
+            border-color: white;
+            background-color: rgb(75, 89, 97);
+            text-shadow: -2px 2px 1px rgb(0, 0, 0);
+            cursor: pointer;
+        }
+
+        .button:active {
+            background-color: rgb(24, 29, 32);
+            color: rgb(214, 214, 214);
+            box-shadow: 0.5px 0.5px 10px 0px rgb(39, 57, 63);
+            border-color: rgb(117, 117, 117);
+            text-shadow: -1px 1px 1px rgb(0, 0, 0);
+            sound-in: ui.drag.stop;
+            sound-out: ui.drag.start;
+        }
+
+        // .button:notenough {
+        //     background-color: rgb(24, 29, 32);
+        //     color: rgb(116, 116, 116);
+        //     box-shadow: 0.5px 0.5px 10px 0px rgb(39, 57, 63);
+        //     border-color: rgb(117, 117, 117);
+        //     text-shadow: -1px 1px 1px rgb(0, 0, 0);
+        // }
+
+        .section {
+            color: gray;
+            font-family: Arial;
+            margin-bottom: 10px;
+        }
+    }
+
+    TestMenuSand {
+        // background-size: cover;
+        // background-image: url(/ui/placeholders/DEMONIC.PNG);
+        // top: 350px;
+        // left: 322px;
+        position: absolute;
+        // border-radius: 2.5px;
+
+        .button {
+            height: 250px;
+            background-image: url(/ui/placeholders/DEMONIC.PNG);
+            box-shadow: 0px 0px 2.5px 0px black;
+            background-size: cover;
+            width: 250px;
+            top: 350px;
+            border-radius: 2.5px;
+            border: 0px;
+            border-color: rgb(245, 233, 164);
+            transition: all 0.1s ease-in-out;
+            left: 322px;
+        }
+
+        .button:hover {
+            height: 255px;
+            width: 255px;
+            box-shadow: .5px .5px 15px 1px black;
+            left: 319px;
+            border: 5px;
+            top: 347px;
+        }
+
+        .button:active {
+            height: 245px;
+            border-color: rgb(219, 196, 64);
+            width: 245px;
+            left: 324px;
+            box-shadow: 0px 0px 2.5px 0px black;
+            top: 352px;
+            sound-in: ui.button.press;
+        }
+    }
+
+    TestMenuPurchasables {
+        .section {
+           color: rgb(255, 255, 255); 
+           font-family: Arial;
+           font-weight: 700;
+           text-shadow: 1px 1px 1.5px black;
+           box-shadow: 1.5px 1.5px 10px 0px black;
+           padding: 4px;
+           top: 15px;
+           position: absolute;
+           right: 1000px;
+           background-color: rgb(35, 130, 185);
+           border-radius: 5px;
+           width: 150px;
+           height: 25px;
+        }
+    }
+}

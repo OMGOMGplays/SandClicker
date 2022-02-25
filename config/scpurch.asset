@@ -1,0 +1,11 @@
+//
+// SC.Purchasable
+//
+@BaseClass = scpurch : ""
+[
+	title(string) : "Title" :  : "The title of this purchasable"
+	expense(float) : "Expense" : 0 : "How much this purchasable should cost"
+	cps(float) : "CPS" : 0 : "The amount of Clicks Per Second this purchasable has"
+	canbeupgraded(boolean) : "Can Be Upgraded" : 0 : "Can this purchasable be upgraded?"
+]
+
