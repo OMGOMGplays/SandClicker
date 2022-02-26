@@ -1,12 +1,14 @@
 // @import 'TestMenu.scss';
 
 OptionsMenu {
-    width: 100%;
+    width: 500%;
     height: 100%;
     position: absolute;
     opacity: 1;
+    right: 0px;
     pointer-events: all;
     background-color: rgb(35, 42, 46);
+    color: white;
 
     .header {
         font-family: Poppins;

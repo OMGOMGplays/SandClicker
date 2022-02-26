@@ -27,8 +27,7 @@ namespace SC.UI
 			Add.Label("Open options", "optionsbutton").AddEventListener("onclick", () => 
 			{
 				Log.Info("Should open options now!");
-				AddChild<OptionsMenuSelections>();
-				SetClass("hidden", true);
+				AddChild<OptionsMenu>();
 			});
 		}
 	}

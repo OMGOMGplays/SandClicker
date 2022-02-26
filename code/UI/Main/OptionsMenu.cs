@@ -20,7 +20,7 @@ namespace SC.UI
 			Add.Label("Return to game", "backbutton").AddEventListener("onclick", () => 
 			{
 				Log.Info("Should return!");
-				SetClass("hidden", true);
+				Delete();
 			});
 
 			Add.Label("This is a description of the option", "desc");

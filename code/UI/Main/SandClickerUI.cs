@@ -27,6 +27,7 @@ namespace SC.UI
 
 			RootPanel.AddChild<OptionsMenu>();
 			RootPanel.AddChild<TestMenu>();
+			RootPanel.AddChild<SanderyName>();
 
 			// Main buttons
 
