@@ -8,7 +8,7 @@ namespace SC.UI
 	{
 		public Buttons() 
 		{
-			StyleSheet.Load("/ui/Buttons.scss");
+			StyleSheet.Load("/ui/main/buttons/Buttons.scss");
 
 			var player = Local.Pawn as SCPlayer;
 

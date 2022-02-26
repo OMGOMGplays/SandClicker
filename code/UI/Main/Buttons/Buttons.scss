@@ -1,19 +1,19 @@
 Buttons {
     height: 100%;
-    width: 50%;
-    left: 1500px;
+    width: 25%;
+    left: 1580px;
     background-color: rgb(42, 104, 104);
     box-shadow: -4px 0px 10px 0px rgb(39, 57, 63);
     padding: 10px;
     flex-direction: column;
 
     .optionsbutton {
-        width: 12%;
+        width: 123px;
         height: 4%;
         padding: 10px;
         font-family: Poppins;
-        top: -100px;
-        right: 718px;
+        top: -150px;
+        right: 798px;
         font-weight: 600;
         border-right: 2.5px;
         border-top: 2.5px;
@@ -44,7 +44,7 @@ Buttons {
     }
 
     .button {
-        width: 30%;
+        width: 250px;
         left: 250px;
         padding: 10px;
         font-family: Arial;

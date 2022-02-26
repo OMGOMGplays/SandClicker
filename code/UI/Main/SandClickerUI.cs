@@ -23,10 +23,20 @@ namespace SC.UI
 
 		public void CreateUI() 
 		{
+			// Main stuffs
+
 			RootPanel.AddChild<OptionsMenu>();
 			RootPanel.AddChild<TestMenu>();
+
+			// Main buttons
+
 			RootPanel.AddChild<Sand>();
 			RootPanel.AddChild<Buttons>();
+
+			// Upgrades
+
+			RootPanel.AddChild<UpgradeBox>();
+			RootPanel.AddChild<UpgradeButton>();
 		}
 
 		[ClientCmd("sc_hud_reload")]

@@ -10,7 +10,7 @@ namespace SC.UI
 		{
 			var player = Local.Pawn as SCPlayer;
 
-			StyleSheet.Load("/ui/Sand.scss");
+			StyleSheet.Load("/ui/main/buttons/Sand.scss");
 
 			Add.Label("", "button").AddEventListener("onclick", () => 
 			{

@@ -13,7 +13,7 @@ namespace SC.UI
 
 			// Log.Info("Player is: " + player);
 
-			StyleSheet.Load("/ui/TestMenu.scss");
+			StyleSheet.Load("/ui/main/TestMenu.scss");
 
 			Add.Label("Sand Count: ", "header");
 		}

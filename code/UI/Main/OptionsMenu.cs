@@ -8,7 +8,7 @@ namespace SC.UI
 	{
 		public OptionsMenu() 
 		{
-			StyleSheet.Load("/ui/OptionsMenu.scss");
+			StyleSheet.Load("/ui/main/OptionsMenu.scss");
 
 			Add.Label("Options", "header");
 
