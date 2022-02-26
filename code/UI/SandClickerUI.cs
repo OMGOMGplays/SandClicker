@@ -18,12 +18,15 @@ namespace SC.UI
 			RootPanel?.Delete();
 
 			base.CreateRootPanel();
-			CreateUIElements();
+			CreateUI();
 		}
 
-		public void CreateUIElements() 
+		public void CreateUI() 
 		{
+			RootPanel.AddChild<OptionsMenu>();
 			RootPanel.AddChild<TestMenu>();
+			RootPanel.AddChild<Sand>();
+			RootPanel.AddChild<Buttons>();
 		}
 
 		[ClientCmd("sc_hud_reload")]

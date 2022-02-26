@@ -1,0 +1,95 @@
+Buttons {
+    height: 100%;
+    width: 50%;
+    left: 1500px;
+    background-color: rgb(42, 104, 104);
+    box-shadow: -4px 0px 10px 0px rgb(39, 57, 63);
+    padding: 10px;
+    flex-direction: column;
+
+    .optionsbutton {
+        width: 12%;
+        height: 4%;
+        padding: 10px;
+        font-family: Poppins;
+        top: -100px;
+        right: 718px;
+        font-weight: 600;
+        border-right: 2.5px;
+        border-top: 2.5px;
+        border-bottom: 2.5px;
+        border-color: rgb(35, 42, 46);
+        color: white;
+        box-shadow: .5px .5px 10px -3px rgb(39, 57, 63);
+        text-shadow: -1px 1px 1px rgb(0, 0, 0);
+        background-color: rgb(35, 42, 46);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .optionsbutton:hover {
+        border-color: white;
+        cursor: pointer;
+    }
+
+    .optionsbutton:active {
+        background-color: rgb(24, 29, 32);
+        color: rgb(214, 214, 214);
+        border-color: rgb(117, 117, 117);
+        text-shadow: -1px 1px 1px rgb(0, 0, 0);
+        sound-in: ui.drag.stop;
+        sound-out: ui.drag.start;
+    }
+
+    .button {
+        width: 30%;
+        left: 250px;
+        padding: 10px;
+        font-family: Arial;
+        font-size: 22px;
+        font-weight: 600;
+        border: 2.5px;
+        border-color: rgb(35, 42, 46);
+        color: white;
+        text-transform: capitalize;
+        box-shadow: -2.5px 2.5px 10px 0px rgb(39, 57, 63);
+        text-shadow: -1px 1px 1px rgb(0, 0, 0);
+        background-color: rgb(35, 42, 46);
+        border-radius: 3px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .button:hover {
+        border-color: white;
+        background-color: rgb(75, 89, 97);
+        text-shadow: -2px 2px 1px rgb(0, 0, 0);
+        cursor: pointer;
+    }
+
+    .button:active {
+        background-color: rgb(24, 29, 32);
+        color: rgb(214, 214, 214);
+        box-shadow: 0.5px 0.5px 10px 0px rgb(39, 57, 63);
+        border-color: rgb(117, 117, 117);
+        text-shadow: -1px 1px 1px rgb(0, 0, 0);
+        sound-in: ui.drag.stop;
+        sound-out: ui.drag.start;
+    }
+
+    // .button:notenough {
+    //     background-color: rgb(24, 29, 32);
+    //     color: rgb(116, 116, 116);
+    //     box-shadow: 0.5px 0.5px 10px 0px rgb(39, 57, 63);
+    //     border-color: rgb(117, 117, 117);
+    //     text-shadow: -1px 1px 1px rgb(0, 0, 0);
+    // }
+
+    // .section {
+    //     color: gray;
+    //     font-family: Arial;
+    //     margin-bottom: 10px;
+    // }
+}

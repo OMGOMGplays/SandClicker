@@ -1,7 +1,4 @@
 ﻿using Sandbox;
-using System;
-using System.Linq;
-using SC.UI;
 
 namespace SC
 {
@@ -10,8 +7,6 @@ namespace SC
 		public override void Spawn()
 		{
 			base.Spawn();
-
-			// PlaySound("music.placeholders");
 		}
 
 		public override void Respawn()

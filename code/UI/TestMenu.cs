@@ -16,10 +16,6 @@ namespace SC.UI
 			StyleSheet.Load("/ui/TestMenu.scss");
 
 			Add.Label("Sand Count: ", "header");
-
-			AddChild<TestMenuButtons>();
-			AddChild<TestMenuSand>();
-			AddChild<TestMenuPurchasables>();
 		}
 
 		public override void Tick()
@@ -40,47 +36,45 @@ namespace SC.UI
 		}
 	}
 
-	public class TestMenuButtons : Panel 
-	{
-		public TestMenuButtons() 
-		{
-			var player = Local.Pawn as SCPlayer;
+	// public class TestMenuButtons : Panel 
+	// {
+	// 	public TestMenuButtons() 
+	// 	{
+	// 		var player = Local.Pawn as SCPlayer;
 
-			foreach (var prchbl in Purchasable.Names) 
-			{
-				var name = prchbl.Value;
-				var val = prchbl.Key;
+	// 		foreach (var prchbl in Purchasable.Names) 
+	// 		{
+	// 			var name = prchbl.Value;
+	// 			var val = prchbl.Key;
 
-				Add.Label($"{name}", "button").AddEventListener("onclick", () => 
-				{
-					Log.Info("Purchased " + name + "!");
-					// player.TotalPurchasables++;
-				});
-			}
-		}
-	}
+	// 			Add.Label($"{name}", "button").AddEventListener("onclick", () => 
+	// 			{
+	// 				Log.Info("Purchased " + name + "!");
+	// 				// player.TotalPurchasables++;
+	// 			});
+	// 		}
 
-	public class TestMenuSand : Panel 
-	{
-		public TestMenuSand() 
-		{
-			var player = Local.Pawn as SCPlayer;
+	// 		Add.Label("Open options", "optionsbutton").AddEventListener("onclick", () => 
+	// 		{
+	// 			Log.Info("Should open options now!");
+	// 			AddChild<OptionsMenuSelections>();
+	// 			SetClass("hidden", true);
+	// 			// testMenu.Delete();
+	// 		});
+	// 	}
+	// }
 
-			Add.Label("", "button").AddEventListener("onclick", () => 
-			{
-				Log.Info("Added sand!");
-				// player.TotalSand += 1;
-			});
-		}
-	}
+	// public class TestMenuSand : Panel 
+	// {
+	// 	public TestMenuSand() 
+	// 	{
+	// 		var player = Local.Pawn as SCPlayer;
 
-	public class TestMenuPurchasables : Panel 
-	{
-		public TestMenuPurchasables() 
-		{
-			var player = Local.Pawn as SCPlayer;
-
-			Add.Label("Total Purchasables: ", "section");
-		}
-	}
+	// 		Add.Label("", "button").AddEventListener("onclick", () => 
+	// 		{
+	// 			Log.Info("Added sand!");
+	// 			// player.TotalSand += 1;
+	// 		});
+	// 	}
+	// }
 }
