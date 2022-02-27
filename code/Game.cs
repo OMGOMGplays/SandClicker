@@ -36,5 +36,4 @@ namespace SC
 			player.Spawn();
 		}
 	}
-
 }

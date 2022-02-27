@@ -10,8 +10,6 @@ namespace SC.UI
 		{
 			StyleSheet.Load("/ui/main/buttons/Buttons.scss");
 
-			var player = Local.Pawn as SCPlayer;
-
 			foreach (var prchbl in Purchasable.Names) 
 			{
 				var name = prchbl.Value;
@@ -20,7 +18,7 @@ namespace SC.UI
 				Add.Label($"{name}", "button").AddEventListener("onclick", () => 
 				{
 					Log.Info("Purchased " + name + "!");
-					// player.TotalPurchasables++;
+
 				});
 			}
 
@@ -28,6 +26,12 @@ namespace SC.UI
 			{
 				Log.Info("Should open options now!");
 				AddChild<OptionsMenu>();
+			});
+
+			Add.Label("Open stats", "statsbutton").AddEventListener("onclick", () => 
+			{
+				Log.Info("Should open stats now!");
+				AddChild<StatsMenu>();
 			});
 		}
 	}

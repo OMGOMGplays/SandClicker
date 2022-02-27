@@ -8,14 +8,22 @@ namespace SC.UI
 	{
 		public TestMenu() 
 		{
-			var player = Local.Pawn as SCPlayer;
-			// var currSand = player.TotalSand;
-
 			// Log.Info("Player is: " + player);
 
 			StyleSheet.Load("/ui/main/TestMenu.scss");
 
 			Add.Label("Sand Count: ", "header");
+
+			// if (Local.Pawn is SCPlayer player) 
+			// {
+			// 	var currSand = player.TotalSand;
+
+			// 	Add.Label("Sand Count: " + currSand, "header");
+			// }
+			// else 
+			// {
+			// 	Log.Error("Player is not things!!!");
+			// }
 		}
 
 		public override void Tick()

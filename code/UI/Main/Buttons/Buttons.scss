@@ -10,7 +10,8 @@ Buttons {
     .optionsbutton {
         width: 123px;
         height: 4%;
-        padding: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
         font-family: Poppins;
         top: -150px;
         right: 798px;
@@ -35,6 +36,42 @@ Buttons {
     }
 
     .optionsbutton:active {
+        background-color: rgb(24, 29, 32);
+        color: rgb(214, 214, 214);
+        border-color: rgb(117, 117, 117);
+        text-shadow: -1px 1px 1px rgb(0, 0, 0);
+        sound-in: ui.drag.stop;
+        sound-out: ui.drag.start;
+    }
+
+    .statsbutton {
+        width: 104px;
+        height: 4%;
+        right: 798px;
+        bottom: 125px;
+        color: white;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+        box-shadow: .5px .5px 10px -3px rgb(39, 57, 63);
+        text-shadow: -1px 1px 1px rgb(0, 0, 0);
+        background-color: rgb(35, 42, 46);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-right: 2.5px;
+        border-top: 2.5px;
+        border-bottom: 2.5px;
+        border-color: rgb(35, 42, 46);
+    }
+
+    .statsbutton:hover {
+        border-color: white;
+        cursor: pointer;
+    }
+
+    .statsbutton:active {
         background-color: rgb(24, 29, 32);
         color: rgb(214, 214, 214);
         border-color: rgb(117, 117, 117);

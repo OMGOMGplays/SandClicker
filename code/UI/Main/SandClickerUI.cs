@@ -25,6 +25,7 @@ namespace SC.UI
 		{
 			// Main stuffs
 
+			RootPanel.AddChild<StatsMenu>();
 			RootPanel.AddChild<OptionsMenu>();
 			RootPanel.AddChild<TestMenu>();
 			RootPanel.AddChild<SanderyName>();
